@@ -40,7 +40,7 @@ inputs:
   cli-version:
     description: "The dns-doctor npm CLI version to run."
     required: false
-    default: "0.2.1"
+    default: "0.3.0"
 
 outputs:
   status:

@@ -80,7 +80,7 @@ export function parseBody(stdout) {
 }
 
 function runCli(args, env) {
-  const version = env.DNSD_CLI_VERSION || "0.2.1";
+  const version = env.DNSD_CLI_VERSION || "0.3.0";
   const res = spawnSync("npx", ["-y", `dns-doctor@${version}`, ...args, "--json"], {
     encoding: "utf8",
     env: { ...env, NPM_CONFIG_UPDATE_NOTIFIER: "false" },

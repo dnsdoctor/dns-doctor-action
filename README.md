@@ -48,7 +48,7 @@ The step succeeds when every reachable location answers with the expected value.
 | `timeout-minutes` | `30` | Propagation: deadline. |
 | `interval-seconds` | `60` | Propagation: poll interval. |
 | `api-token` | empty | Optional DNS Doctor API token; raises the anonymous rate limit. |
-| `cli-version` | `0.2.1` | The `dns-doctor` CLI version to run. |
+| `cli-version` | `0.3.0` | The `dns-doctor` CLI version to run. |
 
 ## Outputs
 
